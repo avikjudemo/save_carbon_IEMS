@@ -95,3 +95,5 @@ Check impact_math.csv for detailed projections
 Review FOOTPRINT.md for carbon accounting methodology
 
 See data_card.md for data ethics and sourcing
+# Public github repo
+https://github.com/avikjudemo/save_carbon_IEMS
