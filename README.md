@@ -25,10 +25,7 @@ I-EMS uses **real-time computer vision** to intelligently recommend engine shutd
 ## 🚀 Quick Start
 
 ### Installation
-```bash
-# Clone repository
-git clone https://github.com/your-username/IEMS.git
-cd IEMS
+
 
 # Install dependencies
 pip install -r requirements.txt
