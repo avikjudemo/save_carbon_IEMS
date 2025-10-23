@@ -1,0 +1,25 @@
+
+## 7. `deployment/docker-compose.yml`
+
+```yaml
+version: '3.8'
+
+services:
+  iems-calculator:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    volumes:
+      - ../impact_math.csv:/app/impact_math.csv
+    environment:
+      - PYTHONPATH=/app
+
+  iems-api:
+    image: python:3.9
+    working_dir: /app
+    volumes:
+      - ../src:/app/src
+      - ../impact_math.csv:/app/impact_math.csv
+    ports:
+      - "8000:8000"
+    command: python src/impact_calculator.py

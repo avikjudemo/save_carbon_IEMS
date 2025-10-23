@@ -1,0 +1,4 @@
+scenario,adoption_rate_percent,vehicles_equipped,daily_shutdowns_per_vehicle,annual_fuel_savings_liters,co2_reduction_tons,nox_reduction_tons,water_savings_cubic_meters,economic_savings_million_eur
+conservative,10.0,25000000,3,182500000.0,421575.0,383.25,821250.0,273.75
+moderate,25.0,62500000,5,760416666.6666667,1756562.5000000002,1596.875,3421875.0000000005,1140.625
+aggressive,40.0,100000000,8,1946666666.666667,4496800.000000001,4088.0000000000005,8760000.000000002,2920.0000000000005
